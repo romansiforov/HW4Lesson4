@@ -16,11 +16,12 @@ body {
 }
 
 .header-logo {
-    width: 23%;
-    height: 100%;
+    width: 140px;
+    height: 50px;
     display: inline-block;
     text-align: right;
     margin: 0.5rem 0;
+    padding: 0 10rem 0 18rem;
 }
 
 .nav-bar {
@@ -66,17 +67,24 @@ body {
 }
 
 .main-text {
+    display: inline-block;
     height: 85px;
     width: 100%;
     color: #202846;
+    background: #BFF0FF;
+    margin: 0;
+    padding: 0.75rem 15%;
+}
+
+.main-text>h1{
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
     font-family: PT Sans;
     font-size: 44px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
-    background: #BFF0FF;
-    margin: 0;
-    padding: 0.75rem 15%;
 }
 
 .main-room {
@@ -152,7 +160,6 @@ body {
 .place-description {
     background: #FFF;
     width: 739px;
-    height: 197px;
     padding: 2rem;
 
     color: #202846;
@@ -175,7 +182,6 @@ body {
 .card {
     position: relative;
     width: 1321px;
-    height: 300px;
     background: linear-gradient(93deg, #ADCBD4 0%, #00AEE5 100%);
     margin: 2rem auto;
     transition: all 0.5s;
