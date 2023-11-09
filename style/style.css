@@ -121,11 +121,6 @@ body {
     line-height: normal;
 }
 
-.cards {
-    width: 100%;
-    position: relative;
-}
-
 .up{
     position: absolute;
     transition: all 0.5s;
@@ -178,8 +173,14 @@ body {
     display: inline-block;
 }
 
+.cards {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
 .card {
     position: relative;
+    display: inline-block;
     width: 1321px;
     background: linear-gradient(93deg, #ADCBD4 0%, #00AEE5 100%);
     margin: 2rem auto;
