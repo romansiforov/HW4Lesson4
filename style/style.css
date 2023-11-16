@@ -10,34 +10,26 @@ body {
 }
 
 .header {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #243B93;
 }
 
 .header-logo {
-    width: 140px;
-    height: 50px;
-    display: inline-block;
-    text-align: right;
-    margin: 0.5rem 0;
-    padding: 0 10rem 0 18rem;
+    margin: 0.25rem 3rem;
+
 }
 
 .nav-bar {
+    margin: 0 6rem;
     list-style: none;
-    text-align: center;
-    display: inline-block;
-    width: 54%;
-    height: 100%;  
     font-family: PT Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 2.56px;
     word-spacing: 2rem;
-    position: relative;
-    top: -20px;
-    margin: 0 auto;
 }
 
 .nav-bar>li {
@@ -50,20 +42,18 @@ body {
 }
 
 .change-lang {
-    display: inline-block;
-    height: 100%;
+   display: flex;
+   align-items: center;
 }
 
 .lang-value{
     color: #FFF;
-    text-align: left;
     font-family: PT Sans;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    float: right;
-    padding: 0.5rem;
+    margin: 0 0.5rem;
 }
 
 .main-text {
@@ -77,8 +67,6 @@ body {
 }
 
 .main-text>h1{
-    display: inline-block;
-    width: 70%;
     margin: 0 auto;
     font-family: PT Sans;
     font-size: 44px;
@@ -149,13 +137,13 @@ body {
     font-style: italic;
     font-weight: 700;
     line-height: normal;
+    text-align: left;
 }
 
 .place-description {
     background: #FFF;
-    width: 739px;
     padding: 2rem;
-
+    text-align: left;
     color: #202846;
     font-family: PT Sans;
     font-size: 22px;
@@ -271,6 +259,7 @@ body {
 .button {
     width: 250px;
     height: 50px;
+    display: block;
     border-radius: 30px;
     background: #243B93;
     text-align: center;
@@ -309,11 +298,14 @@ body {
 }
 
 .exit{
+    display: block;
     width: 100%;
     margin: 2rem auto;
 
     text-align: center;
     font-family: PT Sans;
+    text-decoration: none;
+    color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -324,11 +316,6 @@ body {
     width: 174px;
     height: 50px;
     padding: 0.5rem;
-}
-
-.exit>a{
-    text-decoration: none;
-    color: #FFF;
 }
 
 .contacts-title {
@@ -343,10 +330,6 @@ body {
     background: linear-gradient(90deg, #54D6FF 0%, #FFE600 100%);
     margin: 0;
     padding: 0.75rem 15%;
-}
-
-.contacts {
-    width: 100%;
 }
 
 .contact-map{
